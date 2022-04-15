@@ -1,0 +1,49 @@
+/*For the index and About Me page, 
+overwrite a total of at least 4 style attributes 
+(e.g. font-family, color, text-alignment, etc.) 
+using at least 4 custom style definitions 
+(e.g. p, H1, .bold, .italic) 
+with custom styles defined in a custom, separate stylesheet.*/
+
+/* HomePage Overrides */
+.video {
+    text-align: center;
+}
+
+.title {
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+.info {
+    color: grey;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* About Me Overrides*/
+
+.picture {
+    text-align: center;
+    height: 300px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.color {
+    color: grey;
+}
